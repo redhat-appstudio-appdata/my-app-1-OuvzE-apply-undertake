@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-xhms
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:OuvzE-devfile-sample-xhms
+      - image: quay.io/redhat-appstudio/user-workload@sha256:ea6420c7372e06c72d55ee78b74830447c6b1ff6cc7c34b5aa1a2cd8302ca340
         name: my-nodejs
         ports:
         - containerPort: 3001
